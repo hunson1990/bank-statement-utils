@@ -32,10 +32,10 @@
   "homepage": "https://bankstatementconverter.work/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrguo1990/bank-statement-utils.git"
+    "url": "git+https://github.com/hunson1990/bank-statement-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/mrguo1990/bank-statement-utils/issues"
+    "url": "https://github.com/hunson1990/bank-statement-utils/issues"
   },
   "license": "MIT",
   "author": "Bank Statement Converter",
