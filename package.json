@@ -1,0 +1,49 @@
+{
+  "name": "bank-statement-utils",
+  "version": "0.1.0",
+  "description": "Zero-dependency TypeScript utilities for normalizing bank statement CSV rows.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepack": "npm test"
+  },
+  "keywords": [
+    "bank-statement",
+    "csv",
+    "transaction",
+    "finance",
+    "typescript",
+    "normalization"
+  ],
+  "homepage": "https://bankstatementconverter.work/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrguo1990/bank-statement-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrguo1990/bank-statement-utils/issues"
+  },
+  "license": "MIT",
+  "author": "Bank Statement Converter",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  }
+}
